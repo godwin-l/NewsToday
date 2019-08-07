@@ -214,14 +214,9 @@
 .fh5co_good_font_2 {
 	font-size: 16px;
 }
-	
-	
 	.fh5co_contact_us_no_icon_difh5co_hover_2{
-		
-		text-align: right;
-		
-	}
-	
+		text-align: right;	
+	}	
 }
 
 @media(min-width:1025px) and (max-width:1170px) {
