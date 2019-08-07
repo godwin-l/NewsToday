@@ -24,6 +24,13 @@
     <link href="css/style_1.css" rel="stylesheet" type="text/css"/>
     <!-- Modernizr JS -->
     <script src="js/modernizr-3.5.0.min.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4803002634294024",
+    enable_page_level_ads: true
+  });
+</script>
 </head>
 <body>
 

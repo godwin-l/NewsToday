@@ -25,7 +25,7 @@ $pages = 4;
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/x-icon" href="images/logo.png">
-    <title>24 News — Health</title>
+    <title>NewsToday — Health</title>
     <link href="css/media_query.css" rel="stylesheet" type="text/css"/>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -38,6 +38,13 @@ $pages = 4;
     <link href="css/style_1.css" rel="stylesheet" type="text/css"/>
     <!-- Modernizr JS -->
     <script src="js/modernizr-3.5.0.min.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4803002634294024",
+    enable_page_level_ads: true
+  });
+</script>
 </head>
 <body>
 
