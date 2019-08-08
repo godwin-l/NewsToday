@@ -47,6 +47,12 @@ $pages = 4;
 </script>
 </head>
 <body>
+<?php
+define('_MN_USER', 'e06c654e7a77b5c3cc5a770d6f64c5b1798538bf');
+require_once($_SERVER['DOCUMENT_ROOT'].'/'._MN_USER.'/magenet.php');
+$magenet = new Magenet(); 
+ echo $magenet->getLinks(1); 
+          ?>
 
 <div class="container-fluid bg-faded fh5co_padd_mediya padding_786">
     <div class="container padding_786">
@@ -112,6 +118,12 @@ for ($i = $start ; $i < $perPage ; $i++) :
                 </div>
 <?php endfor; ?>
                     </div>
+                    <?php
+define('_MN_USER', 'e06c654e7a77b5c3cc5a770d6f64c5b1798538bf');
+require_once($_SERVER['DOCUMENT_ROOT'].'/'._MN_USER.'/magenet.php');
+$magenet = new Magenet(); 
+ echo $magenet->getLinks(1); 
+          ?>
 
 
 <nav aria-label="Page navigation example">
