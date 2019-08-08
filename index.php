@@ -73,6 +73,10 @@ echo $magenet->getLinks();
     </div>
 </div>
 
+<?php
+echo $magenet->getLinks(2);
+?>
+
 <div class="container-fluid paddding mb-5">
     <div class="row mx-0">
         <div class="col-md-6 col-12 paddding animate-box" data-animate-effect="fadeIn">
@@ -149,6 +153,10 @@ echo popularArticles() ?>
                 </div>
             </div>
         </div>
+
+<?php
+        echo $magenet->getLinks();
+          ?>
 
 
 
