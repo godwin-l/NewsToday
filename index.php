@@ -82,6 +82,12 @@ echo $magenet->getLinks(2);
         <div class="col-md-6 col-12 paddding animate-box" data-animate-effect="fadeIn">
    <?php
       echo topArticle() ?>
+      <?php
+define('_MN_USER', 'e06c654e7a77b5c3cc5a770d6f64c5b1798538bf');
+require_once($_SERVER['DOCUMENT_ROOT'].'/'._MN_USER.'/magenet.php');
+$magenet = new Magenet(); 
+ echo $magenet->getLinks(1); 
+          ?>
             </div>
         </div>
 
@@ -91,6 +97,12 @@ echo $magenet->getLinks(2);
             <div class="row">
    <?php
       echo topArticles() ?>
+      <?php
+define('_MN_USER', 'e06c654e7a77b5c3cc5a770d6f64c5b1798538bf');
+require_once($_SERVER['DOCUMENT_ROOT'].'/'._MN_USER.'/magenet.php');
+$magenet = new Magenet(); 
+ echo $magenet->getLinks(1); 
+          ?>
                     </div>
                 </div>
             </div>
@@ -107,6 +119,12 @@ echo $magenet->getLinks(2);
         <div class="owl-carousel owl-theme js" id="slider1">
                    <?php
       echo trendingArticles() ?>
+      <?php
+define('_MN_USER', 'e06c654e7a77b5c3cc5a770d6f64c5b1798538bf');
+require_once($_SERVER['DOCUMENT_ROOT'].'/'._MN_USER.'/magenet.php');
+$magenet = new Magenet(); 
+ echo $magenet->getLinks(1); 
+          ?>
                     </div>
                 </div>
             </div>
@@ -124,6 +142,12 @@ echo $magenet->getLinks(2);
         <div class="owl-carousel owl-theme" id="slider2">
                        <?php
       echo localArticles() ?>
+      <?php
+define('_MN_USER', 'e06c654e7a77b5c3cc5a770d6f64c5b1798538bf');
+require_once($_SERVER['DOCUMENT_ROOT'].'/'._MN_USER.'/magenet.php');
+$magenet = new Magenet(); 
+ echo $magenet->getLinks(1); 
+          ?>
                 </div>
             </div>
         </div>
@@ -141,6 +165,12 @@ echo $magenet->getLinks(2);
                 </div>
 <?php
 echo bitcoinArticles() ?>
+<?php
+define('_MN_USER', 'e06c654e7a77b5c3cc5a770d6f64c5b1798538bf');
+require_once($_SERVER['DOCUMENT_ROOT'].'/'._MN_USER.'/magenet.php');
+$magenet = new Magenet(); 
+ echo $magenet->getLinks(1); 
+          ?>
                     </div>
 
 
@@ -155,7 +185,7 @@ echo $social_buttons;
 define('_MN_USER', 'e06c654e7a77b5c3cc5a770d6f64c5b1798538bf');
 require_once($_SERVER['DOCUMENT_ROOT'].'/'._MN_USER.'/magenet.php');
 $magenet = new Magenet(); 
- echo $magenet->getLinks(); 
+ echo $magenet->getLinks(1); 
  echo $copyright;
           ?>
                 </div>
