@@ -155,7 +155,12 @@ echo popularArticles() ?>
         </div>
 
 <?php
-        echo $magenet->getLinks();
+echo $social_buttons; 
+define('_MN_USER', 'e06c654e7a77b5c3cc5a770d6f64c5b1798538bf');
+require_once($_SERVER['DOCUMENT_ROOT'].'/'._MN_USER.'/magenet.php');
+$magenet = new Magenet(); 
+ echo $magenet->getLinks(); 
+ echo $copyright;
           ?>
 
 
