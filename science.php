@@ -90,6 +90,10 @@ $magenet = new Magenet();
     </div>
 </div>
 
+<amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-3370837107236144">
+</amp-auto-ads>
+
 
 <div class="container-fluid pb-4 pt-4 paddding">
     <div class="container paddding">
