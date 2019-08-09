@@ -75,6 +75,10 @@ echo $magenet->getLinks();
         </nav>
     </div>
 </div>
+  
+  <amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-3370837107236144">
+</amp-auto-ads>
 
 <?php
 echo $magenet->getLinks(2);
