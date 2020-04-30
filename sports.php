@@ -8,7 +8,7 @@ $perPage = isset($_GET['per-page']) && $_GET['per-page'] <= 5 ? (int)$_GET['per-
 $start = ($page > 1) ? ($page * $perPage) - $perPage : 0;
 
 $perPage = $start + $perPage;
-$urlSources = file_get_contents("https://newsapi.org/v2/top-headlines?country=ng&category=sports&apiKey=d2f3e838f7a44185bb9dcf19e047474c");
+$urlSources = file_get_contents("https://newsapi.org/v2/top-headlines?country=ng&category=sports&apiKey=aab9ee504ef54b83b7f51d534079c61b");
 
     $urlSourcesArray = json_decode($urlSources,true);
 
